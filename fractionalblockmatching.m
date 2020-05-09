@@ -1,4 +1,4 @@
-function [MSE, fmvs_x, fmvs_y] = fractionalblockmatching_v3(previous_pic, current_pic)
+function [MSE, fmvs_x, fmvs_y] = fractionalblockmatching(previous_pic, current_pic)
 %function MSE = fractionalblockmatching(previous_pic, current_pic)
 
 global fig_no;
